@@ -18,3 +18,11 @@ Template.Recipes.helpers({
     }
 
 });
+
+Template.Recipes.events({
+
+    'click .new-recipe': () => {
+        Session.set('newRecipe', true);
+    }
+
+});
