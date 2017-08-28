@@ -1,3 +1,14 @@
+
+Template.Recipe.helpers({
+    
+    updateRecipeId: function() {
+    
+                return this._id;
+    
+        }
+    
+    });
+
 Template.Recipe.events({
 
     'click .toggle-menu': function(){
